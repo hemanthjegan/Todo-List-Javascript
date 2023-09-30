@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.input-items-grid,
+.items-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px; 
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.input-items-grid{
+    margin: 40px 0px 0px 10px;
+    align-items: stretch;
+}
+
+.input-field{
+    font-size: 15px;
+    padding: 6px;
+}
+
+.add-btn{
+    font-size: 15px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.del-btn{
+    font-size: 15px;
+    background-color: darkred;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 6px ;
+}
+
+.container{
+    height: 670px;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
